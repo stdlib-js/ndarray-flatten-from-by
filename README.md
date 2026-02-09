@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import flattenFromBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-flatten-from-by@esm/index.mjs';
+import flattenFromBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-flatten-from-by@v0.1.1-esm/index.mjs';
 ```
 
 #### flattenFromBy( x, dim\[, options], fcn\[, thisArg] )
@@ -197,7 +197,7 @@ var count = ctx.count;
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
 import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@esm/index.mjs';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@esm/index.mjs';
-import flattenFromBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-flatten-from-by@esm/index.mjs';
+import flattenFromBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-flatten-from-by@v0.1.1-esm/index.mjs';
 
 function scale( value ) {
     return value * 2.0;
